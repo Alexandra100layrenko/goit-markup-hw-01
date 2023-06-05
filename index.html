@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
 <body>
-    <header>
-        <nav>
-            <a class="logo" href="../goit-markup-hw-01/index.html"><p class="logo">WebStudio</span></a>
-            <ul>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </nav>
+    <!-- HEADER -->
+    <header class="page-header">
+        <div class="container page-header-container">
+            <nav class="page-navigation">
+                <a class="logo" href="../goit-markup-hw-01/index.html"><p>Web<span>Studio</span></p></a>
+                <ul class="menu list">
+                    <li><a class="menu-item" href="Studio">Studio</a></li>
+                    <li><a class="menu-item" href="Portfolio">Portfolio</a></li>
+                    <li><a class="menu-item" href="Contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <a class="e-mail contact-heder" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="tel contact-heder" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        <div>
     </header>
     <main>
         <section>
@@ -27,69 +36,83 @@
             <button type="button">Order Service</button>
             <img src="../goit-markup-hw-01/images/people-office-banner.jpg" alt="people-office-banner" width="1440" height="600">
         </section>
-        <section>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
+        <!-- ADVANTAGES -->
+        <section class="section-advantages container">
+            <ul class="advantages-list">
+                <li class="advantages-list-item">
+                    <h3 class="suptitle-text-content">Strategy</h3>
                     <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
-                <li>
-                    <h3>Punctuality</h3>
+                <li class="advantages-list-item">
+                    <h3 class="suptitle-text-content">Punctuality</h3>
                     <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
-                <li>
-                    <h3>Diligence</h3>
+                <li class="advantages-list-item">
+                    <h3 class="suptitle-text-content">Diligence</h3>
                     <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
-                <li>
-                    <h3>Technologies</h3>
+                <li class="advantages-list-item">
+                    <h3 class="suptitle-text-content">Technologies</h3>
                     <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
         </section>
-        <section class="info_item">
-            <h2>What are we doing</h2>
-            <ul>
-                <li>
+        <!-- INFO -->
+        <section class="info_item section ">
+            <h2 class="suptitle">What are we doing</h2>
+            <ul class="info-list container">
+                <li class="info-list-item">
                     <img src="../goit-markup-hw-01/images/info_item/mac.jpg" alt="laptop" width="360" height="300">
                 </li>
-                <li>
+                <li class="info-list-item">
                     <img src="../goit-markup-hw-01/images/info_item/mobile.jpg" alt="mobile" width="360" height="300">
                 </li>
-                <li>
+                <li class="info-list-item">
                     <img src="../goit-markup-hw-01/images/info_item/laptop-mobile.jpg" alt="laptop-mobile" width="360" height="300">
                 </li>
             </ul>
         </section>
-        <section class="about_us">
-            <h2>Our Team</h2>
-            <ul>
-                <li>
+        <!-- EMPLOYEES -->
+        <section class="employeed section">
+            <h2 class="suptitle">Our Team</h2>
+            <ul class="employeed-list container">
+                <li class="employeed-list-item">
                     <img src="../goit-markup-hw-01/images/about_us/mark-guerrero.jpg" alt="mark-guerrero" width="264" height="260">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <div class="employeed-list-item-text-content">
+                        <h3 class="suptitle-text-content">Mark Guerrero</h3>
+                        <p>Product Designer</p>
+                    </div>
                 </li>
-                <li>
+                <li class="employeed-list-item">
                     <img src="../goit-markup-hw-01/images/about_us/tom-ford.jpg" alt="tom-ford" width="264" height="260">
-                    <h3>Tom Ford</h3>
-                    <p>Product Designer</p>
+                    <div class="employeed-list-item-text-content">
+                        <h3 class="suptitle-text-content">Tom Ford</h3>
+                        <p>Product Designer</p>
+                    </div>
                 </li>
-                <li>
+                <li class="employeed-list-item">
                     <img src="../goit-markup-hw-01/images/about_us/camila-garcia.jpg" alt="camila-garcia" width="264" height="260">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <div class="employeed-list-item-text-content">
+                        <h3 class="suptitle-text-content">Camila Garcia</h3>
+                        <p>Marketing</p>
+                    </div>
                 </li>
-                <li>
+                <li class="employeed-list-item">
                     <img src="../goit-markup-hw-01/images/about_us/daniel-wilson.jpg" alt="daniel-wilson" width="264" height="260">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <div class="employeed-list-item-text-content">
+                        <h3 class="suptitle-text-content">Daniel Wilson</h3>
+                        <p>UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </section>
     </main>
+    <!-- FOOTER -->
     <footer>
-        <p class="logo">WebStudio</p>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <div class="container">
+            <p class="logo-theme-dark">Web<span>Studio</span></p>
+            <p class="theme-dark">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        </div>
     </footer>
 </body>
 </html>
